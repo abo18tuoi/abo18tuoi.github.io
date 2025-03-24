@@ -1,0 +1,798 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "resources",
+    "deps": [],
+    "uuids": [
+        "02916241-ae6f-4db7-a0c1-41d86a8b96e5",
+        "03c696c4f",
+        "0775d328-2c8f-4d3b-8862-369ce6de34a2",
+        "07b8260fe",
+        "0895cb45-1273-4239-9e1e-6b03db77533e",
+        "0895cb45-1273-4239-9e1e-6b03db77533e@6c48a",
+        "0895cb45-1273-4239-9e1e-6b03db77533e@f9941",
+        "0c6e647d-f7fd-4890-9b1d-ffe499ee0950",
+        "0ed11076-be1c-47c2-8f0b-94ea97e9c07e",
+        "0f79aa94-457e-4ff9-9524-360de6092103",
+        "0fac5893-888c-49fe-913d-adade8292a66",
+        "127207b0-d86d-475e-93b7-ae23a6d9cb34",
+        "1598a26c-a021-4934-9be1-f34aee5792fc",
+        "1d10528b-32a5-4189-960b-dc7f5bbedfb3",
+        "253692f6-9109-4f74-bc10-d89c30739fc4",
+        "2653c0fc-6f31-471e-98c0-84c72adf517d",
+        "269ea00c-e821-40d8-92f6-5ce04dfbb830",
+        "2bc40d2f-ab27-4c53-a7b4-ebbd255fc020",
+        "2bc40d2f-ab27-4c53-a7b4-ebbd255fc020@6c48a",
+        "2c8e5647-245c-40f2-9aab-0442b59c6008",
+        "2d984716-fc1c-45e5-801a-c4628ffbf61e",
+        "2db46d87-5506-4ee7-81c8-7539bf8f2495",
+        "2db46d87-5506-4ee7-81c8-7539bf8f2495@6c48a",
+        "2db46d87-5506-4ee7-81c8-7539bf8f2495@f9941",
+        "2db4d322-17d2-48ce-b386-0dc98dedbd0e",
+        "2f1d1cd8-d9b5-4638-b4af-00570f985df0",
+        "355e5332-32a7-414e-bbf3-6100acccaf60",
+        "355e5332-32a7-414e-bbf3-6100acccaf60@6c48a",
+        "3c23e09b-b3f0-434e-bf47-70760ba0c07a",
+        "3e9bf50f-f8f7-4a50-979d-9c3122c1c49b",
+        "3f80a065-efcb-464e-9460-e4a5fe9e0db9",
+        "3f80a065-efcb-464e-9460-e4a5fe9e0db9@6c48a",
+        "3f80a065-efcb-464e-9460-e4a5fe9e0db9@f9941",
+        "43991ab9-4ae7-4f06-a48b-428d8bc5602b",
+        "450f6a9a-f462-4c1b-bfb7-63b8badc7272",
+        "46dc7f2f-ad12-49af-a09d-29552a1f95fd",
+        "46dc7f2f-ad12-49af-a09d-29552a1f95fd@6c48a",
+        "46dc7f2f-ad12-49af-a09d-29552a1f95fd@f9941",
+        "48f00eb1-e135-4870-8fc7-8690d702566d",
+        "48f00eb1-e135-4870-8fc7-8690d702566d@6c48a",
+        "48f00eb1-e135-4870-8fc7-8690d702566d@f9941",
+        "49b57139-9aed-4567-8535-74c69d1825d9",
+        "51c6d897-4d11-4c1b-8eab-051835b18dad",
+        "51c6d897-4d11-4c1b-8eab-051835b18dad@6c48a",
+        "51c6d897-4d11-4c1b-8eab-051835b18dad@f9941",
+        "5d873005-f158-4755-b811-0010ad81631d",
+        "5deca4ca-0a54-4bc4-8c54-56c8c03bf679",
+        "5edd0048-d11e-4022-ba52-b10c7279fdb1",
+        "651bdd1d-1200-4860-9cfe-856452c84061",
+        "699f2bb7-8f79-40e9-9629-458a567442af",
+        "6c9860e4-04dd-4571-a5fe-d72b04672fee",
+        "6c9860e4-04dd-4571-a5fe-d72b04672fee@6c48a",
+        "746c34f3-b1de-4129-8575-acf3102d1181",
+        "7639e274-f4bb-411f-ad0f-d5c34bd1f3f7",
+        "7beb51eb-028c-40d9-82cc-71cf9f7f8440",
+        "7eef336e-8321-4ab2-afb9-08d8042ef87c",
+        "80711456-6d84-465f-8582-8162626259a3",
+        "80dafdd5-0aec-424d-9ee1-c768a9ddd2cd",
+        "80dafdd5-0aec-424d-9ee1-c768a9ddd2cd@6c48a",
+        "80dafdd5-0aec-424d-9ee1-c768a9ddd2cd@f9941",
+        "81e8555f-50b7-4ab3-a392-b8f4d5eb1e72",
+        "83e7b878-7e2b-4046-852b-e0746da4d174",
+        "83e7b878-7e2b-4046-852b-e0746da4d174@6c48a",
+        "83e7b878-7e2b-4046-852b-e0746da4d174@f9941",
+        "880cdeb7-06d4-4e9a-9f50-053087ee8e15",
+        "880cdeb7-06d4-4e9a-9f50-053087ee8e15@6c48a",
+        "880cdeb7-06d4-4e9a-9f50-053087ee8e15@f9941",
+        "8a05cedf-1289-4e61-a462-ed1c77735349",
+        "8f445f7c-d8e4-460a-a60f-f1af29ccd389",
+        "92872184-3d85-4f39-aadc-4da792e83be2",
+        "93f4503e-0cd6-41d3-bd1a-7a59626aa2c6",
+        "93f4503e-0cd6-41d3-bd1a-7a59626aa2c6@6c48a",
+        "93f4503e-0cd6-41d3-bd1a-7a59626aa2c6@f9941",
+        "965c260c-472e-4a3b-8f6e-1ae083596385",
+        "979c83cd-bcdf-496c-b978-6735e720928e",
+        "979c83cd-bcdf-496c-b978-6735e720928e@6c48a",
+        "979c83cd-bcdf-496c-b978-6735e720928e@f9941",
+        "9fad0891-f98c-4a1a-8821-d7d46c20415d",
+        "a2abc53c-c447-40ed-b281-88f1624152c5",
+        "a5c9caac-d949-4933-9e82-9df6f2bf3450",
+        "a5c9caac-d949-4933-9e82-9df6f2bf3450@6c48a",
+        "a6946dd5-1768-4742-972e-3e42a0be8a3d",
+        "a6946dd5-1768-4742-972e-3e42a0be8a3d@6c48a",
+        "a9e4e245-76f5-429d-b68d-a282888268a4",
+        "ab6921e3-ecce-4c27-8328-1e5543433257",
+        "b1afe002-2623-4f54-8d8c-ec842e99357d",
+        "b20d01ae-d6dd-449a-8ae8-7acf240b613e",
+        "b23b5c2c-f6a3-4156-8fe1-32671321806f",
+        "b23b5c2c-f6a3-4156-8fe1-32671321806f@6c48a",
+        "b23b5c2c-f6a3-4156-8fe1-32671321806f@f9941",
+        "b2b7d93a-37f0-4e10-8e71-ed2a3c882643",
+        "b2b7d93a-37f0-4e10-8e71-ed2a3c882643@6c48a",
+        "b2b7d93a-37f0-4e10-8e71-ed2a3c882643@f9941",
+        "b57f0b81-6b92-4835-8214-1a9eacfb32ac",
+        "b57f0b81-6b92-4835-8214-1a9eacfb32ac@6c48a",
+        "b57f0b81-6b92-4835-8214-1a9eacfb32ac@f9941",
+        "b7e1f9b4-0f6a-4b6f-aac7-7f91fd25ab2a",
+        "bea8df31-a0fb-456f-8bc5-d087006a1019",
+        "c16419db-ff43-4d94-ad79-4388d382896f",
+        "c43fbf48-66b7-499c-9e30-8175901bd735",
+        "c43fbf48-66b7-499c-9e30-8175901bd735@6c48a",
+        "c43fbf48-66b7-499c-9e30-8175901bd735@f9941",
+        "c8e8db23-c15c-4ec5-b30c-38c95f44036e",
+        "cbf3c8fd-bd0e-46c7-93e3-873361e3ecab",
+        "d0bbd02f-b191-43ab-82f9-83a8348c34a6",
+        "d0bbd02f-b191-43ab-82f9-83a8348c34a6@6c48a",
+        "d0bbd02f-b191-43ab-82f9-83a8348c34a6@f9941",
+        "d511ea4f-04b7-409c-a7bf-0009616d02f4",
+        "d511ea4f-04b7-409c-a7bf-0009616d02f4@6c48a",
+        "d552b0fe-c1f8-4309-b5a2-feef74d28fa8",
+        "d68703e1-7148-407d-9cf1-e689109a0418",
+        "d7331589-5ad1-4e18-892b-a3736bfc21ba",
+        "d7331589-5ad1-4e18-892b-a3736bfc21ba@6c48a",
+        "d7331589-5ad1-4e18-892b-a3736bfc21ba@f9941",
+        "d986e2fd-627e-4a48-9c8d-0f126092a2b5",
+        "da0bd30a-a166-4498-b3ea-84bddc1680f3",
+        "dda0e899-6843-4e59-be21-ae7b4be535e5",
+        "dfab5c0d-c890-4a3a-8b28-6a193516b0c6",
+        "e2f4acac-8aba-41ca-b7d2-0b81f15f57a6",
+        "e40d7357-30d3-4cbe-8567-c73f028be962",
+        "e86aa721-9149-46f3-aea6-a37cc2379c84",
+        "e86aa721-9149-46f3-aea6-a37cc2379c84@6c48a",
+        "e86aa721-9149-46f3-aea6-a37cc2379c84@f9941",
+        "eb0ef785-bba2-4c6a-a309-c3910669f320",
+        "ec0b5621-777e-416e-b95b-33714b124597",
+        "ec0b5621-777e-416e-b95b-33714b124597@6c48a",
+        "eeae9de6-a7ed-4608-8579-91600dd7ecc2",
+        "f48a689b-d5f7-40f4-85e3-ef4359dd3a4d",
+        "f8ad8c08-ed99-4bf8-a5db-7689f73cde77",
+        "f8ad8c08-ed99-4bf8-a5db-7689f73cde77@6c48a",
+        "f8ad8c08-ed99-4bf8-a5db-7689f73cde77@f9941",
+        "f96794c8-e0da-4810-9f29-ce8ff6c5ff02",
+        "fbafd79c-5040-4055-a861-961701119a67",
+        "fc0ca169-b927-4f24-920d-f069a7d62053",
+        "fc0ca169-b927-4f24-920d-f069a7d62053@6c48a",
+        "fc0ca169-b927-4f24-920d-f069a7d62053@f9941"
+    ],
+    "paths": {
+        "fbafd79c-5040-4055-a861-961701119a67": [
+            "Fish/1979_all",
+            "cc.Asset"
+        ],
+        "d511ea4f-04b7-409c-a7bf-0009616d02f4": [
+            "Fish/1979_all",
+            "cc.ImageAsset"
+        ],
+        "d511ea4f-04b7-409c-a7bf-0009616d02f4@6c48a": [
+            "Fish/1979_all/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "0775d328-2c8f-4d3b-8862-369ce6de34a2": [
+            "Fish/1979_fish_10",
+            "cc.Asset"
+        ],
+        "02916241-ae6f-4db7-a0c1-41d86a8b96e5": [
+            "Fish/1979_fish_10",
+            "sp.SkeletonData"
+        ],
+        "dda0e899-6843-4e59-be21-ae7b4be535e5": [
+            "Fish/1979_fish_11",
+            "cc.Asset"
+        ],
+        "f48a689b-d5f7-40f4-85e3-ef4359dd3a4d": [
+            "Fish/1979_fish_11",
+            "sp.SkeletonData"
+        ],
+        "81e8555f-50b7-4ab3-a392-b8f4d5eb1e72": [
+            "Fish/1979_fish_12",
+            "cc.Asset"
+        ],
+        "92872184-3d85-4f39-aadc-4da792e83be2": [
+            "Fish/1979_fish_12",
+            "sp.SkeletonData"
+        ],
+        "5deca4ca-0a54-4bc4-8c54-56c8c03bf679": [
+            "Fish/1979_fish_13",
+            "cc.Asset"
+        ],
+        "127207b0-d86d-475e-93b7-ae23a6d9cb34": [
+            "Fish/1979_fish_13",
+            "sp.SkeletonData"
+        ],
+        "3e9bf50f-f8f7-4a50-979d-9c3122c1c49b": [
+            "Fish/1979_fish_14",
+            "cc.Asset"
+        ],
+        "2653c0fc-6f31-471e-98c0-84c72adf517d": [
+            "Fish/1979_fish_14",
+            "sp.SkeletonData"
+        ],
+        "2d984716-fc1c-45e5-801a-c4628ffbf61e": [
+            "Fish/1979_fish_15",
+            "cc.Asset"
+        ],
+        "253692f6-9109-4f74-bc10-d89c30739fc4": [
+            "Fish/1979_fish_15",
+            "sp.SkeletonData"
+        ],
+        "8f445f7c-d8e4-460a-a60f-f1af29ccd389": [
+            "Fish/1979_fish_16",
+            "cc.Asset"
+        ],
+        "d552b0fe-c1f8-4309-b5a2-feef74d28fa8": [
+            "Fish/1979_fish_16",
+            "sp.SkeletonData"
+        ],
+        "eb0ef785-bba2-4c6a-a309-c3910669f320": [
+            "Fish/1979_fish_17",
+            "cc.Asset"
+        ],
+        "e2f4acac-8aba-41ca-b7d2-0b81f15f57a6": [
+            "Fish/1979_fish_17",
+            "sp.SkeletonData"
+        ],
+        "1598a26c-a021-4934-9be1-f34aee5792fc": [
+            "Fish/1979_fish_18",
+            "cc.Asset"
+        ],
+        "49b57139-9aed-4567-8535-74c69d1825d9": [
+            "Fish/1979_fish_18",
+            "sp.SkeletonData"
+        ],
+        "5d873005-f158-4755-b811-0010ad81631d": [
+            "Fish/1979_fish_19",
+            "cc.Asset"
+        ],
+        "2db4d322-17d2-48ce-b386-0dc98dedbd0e": [
+            "Fish/1979_fish_19",
+            "sp.SkeletonData"
+        ],
+        "b20d01ae-d6dd-449a-8ae8-7acf240b613e": [
+            "Fish/1979_fish_20",
+            "cc.Asset"
+        ],
+        "0ed11076-be1c-47c2-8f0b-94ea97e9c07e": [
+            "Fish/1979_fish_20",
+            "sp.SkeletonData"
+        ],
+        "0f79aa94-457e-4ff9-9524-360de6092103": [
+            "Fish/1979_fish_21",
+            "cc.Asset"
+        ],
+        "ab6921e3-ecce-4c27-8328-1e5543433257": [
+            "Fish/1979_fish_21",
+            "sp.SkeletonData"
+        ],
+        "9fad0891-f98c-4a1a-8821-d7d46c20415d": [
+            "Fish/1979_fish_22",
+            "cc.Asset"
+        ],
+        "2f1d1cd8-d9b5-4638-b4af-00570f985df0": [
+            "Fish/1979_fish_22",
+            "sp.SkeletonData"
+        ],
+        "dfab5c0d-c890-4a3a-8b28-6a193516b0c6": [
+            "Fish/1979_fish_23",
+            "cc.Asset"
+        ],
+        "43991ab9-4ae7-4f06-a48b-428d8bc5602b": [
+            "Fish/1979_fish_23",
+            "sp.SkeletonData"
+        ],
+        "7beb51eb-028c-40d9-82cc-71cf9f7f8440": [
+            "Fish/1979_fish_24",
+            "cc.Asset"
+        ],
+        "b1afe002-2623-4f54-8d8c-ec842e99357d": [
+            "Fish/1979_fish_24",
+            "sp.SkeletonData"
+        ],
+        "269ea00c-e821-40d8-92f6-5ce04dfbb830": [
+            "Fish/1979_fish_25",
+            "cc.Asset"
+        ],
+        "5edd0048-d11e-4022-ba52-b10c7279fdb1": [
+            "Fish/1979_fish_25",
+            "sp.SkeletonData"
+        ],
+        "8a05cedf-1289-4e61-a462-ed1c77735349": [
+            "Fish/1979_fish_27",
+            "cc.Asset"
+        ],
+        "3c23e09b-b3f0-434e-bf47-70760ba0c07a": [
+            "Fish/1979_fish_27",
+            "sp.SkeletonData"
+        ],
+        "0fac5893-888c-49fe-913d-adade8292a66": [
+            "Fish/1979_fish_30",
+            "cc.Asset"
+        ],
+        "1d10528b-32a5-4189-960b-dc7f5bbedfb3": [
+            "Fish/1979_fish_30",
+            "sp.SkeletonData"
+        ],
+        "7639e274-f4bb-411f-ad0f-d5c34bd1f3f7": [
+            "Fish/1979_fish_43",
+            "cc.Asset"
+        ],
+        "eeae9de6-a7ed-4608-8579-91600dd7ecc2": [
+            "Fish/1979_fish_43",
+            "sp.SkeletonData"
+        ],
+        "651bdd1d-1200-4860-9cfe-856452c84061": [
+            "Fish/1979_fish_47",
+            "cc.Asset"
+        ],
+        "a2abc53c-c447-40ed-b281-88f1624152c5": [
+            "MiniBoss/1979_fish_34",
+            "cc.Asset"
+        ],
+        "450f6a9a-f462-4c1b-bfb7-63b8badc7272": [
+            "MiniBoss/1979_fish_34",
+            "sp.SkeletonData"
+        ],
+        "746c34f3-b1de-4129-8575-acf3102d1181": [
+            "MiniBoss/1979_fish_35",
+            "cc.Asset"
+        ],
+        "b7e1f9b4-0f6a-4b6f-aac7-7f91fd25ab2a": [
+            "MiniBoss/1979_fish_35",
+            "sp.SkeletonData"
+        ],
+        "d986e2fd-627e-4a48-9c8d-0f126092a2b5": [
+            "MiniBoss/1979_fish_36",
+            "cc.Asset"
+        ],
+        "bea8df31-a0fb-456f-8bc5-d087006a1019": [
+            "MiniBoss/1979_fish_36",
+            "sp.SkeletonData"
+        ],
+        "a9e4e245-76f5-429d-b68d-a282888268a4": [
+            "MiniBoss/1979_fish_37",
+            "cc.Asset"
+        ],
+        "699f2bb7-8f79-40e9-9629-458a567442af": [
+            "MiniBoss/1979_fish_37",
+            "sp.SkeletonData"
+        ],
+        "7eef336e-8321-4ab2-afb9-08d8042ef87c": [
+            "MiniBoss/1979_miniboss",
+            "cc.Asset"
+        ],
+        "6c9860e4-04dd-4571-a5fe-d72b04672fee": [
+            "MiniBoss/1979_miniboss",
+            "cc.ImageAsset"
+        ],
+        "6c9860e4-04dd-4571-a5fe-d72b04672fee@6c48a": [
+            "MiniBoss/1979_miniboss/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "2c8e5647-245c-40f2-9aab-0442b59c6008": [
+            "MiniBoss/1979_miniboss",
+            "sp.SkeletonData"
+        ],
+        "b57f0b81-6b92-4835-8214-1a9eacfb32ac": [
+            "MiniBoss/1979_txt_critical",
+            "cc.ImageAsset"
+        ],
+        "b57f0b81-6b92-4835-8214-1a9eacfb32ac@6c48a": [
+            "MiniBoss/1979_txt_critical/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "b57f0b81-6b92-4835-8214-1a9eacfb32ac@f9941": [
+            "MiniBoss/1979_txt_critical/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "c8e8db23-c15c-4ec5-b30c-38c95f44036e": [
+            "MiniBoss/1979_fx_dropitem/1979_fx_dropitem",
+            "cc.Asset"
+        ],
+        "a6946dd5-1768-4742-972e-3e42a0be8a3d": [
+            "MiniBoss/1979_fx_dropitem/1979_fx_dropitem",
+            "cc.ImageAsset"
+        ],
+        "a6946dd5-1768-4742-972e-3e42a0be8a3d@6c48a": [
+            "MiniBoss/1979_fx_dropitem/1979_fx_dropitem/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "80711456-6d84-465f-8582-8162626259a3": [
+            "MiniBoss/1979_fx_dropitem/1979_fx_dropitem",
+            "sp.SkeletonData"
+        ],
+        "f96794c8-e0da-4810-9f29-ce8ff6c5ff02": [
+            "MiniBoss/1979_fx_explosion/1979_fx_explosion",
+            "cc.Asset"
+        ],
+        "355e5332-32a7-414e-bbf3-6100acccaf60": [
+            "MiniBoss/1979_fx_explosion/1979_fx_explosion",
+            "cc.ImageAsset"
+        ],
+        "355e5332-32a7-414e-bbf3-6100acccaf60@6c48a": [
+            "MiniBoss/1979_fx_explosion/1979_fx_explosion/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "da0bd30a-a166-4498-b3ea-84bddc1680f3": [
+            "MiniBoss/1979_fx_explosion/1979_fx_explosion",
+            "sp.SkeletonData"
+        ],
+        "e40d7357-30d3-4cbe-8567-c73f028be962": [
+            "MiniBoss/1979_fx_gemminiboss/1979_fx_gemminiboss",
+            "cc.Asset"
+        ],
+        "ec0b5621-777e-416e-b95b-33714b124597": [
+            "MiniBoss/1979_fx_gemminiboss/1979_fx_gemminiboss",
+            "cc.ImageAsset"
+        ],
+        "ec0b5621-777e-416e-b95b-33714b124597@6c48a": [
+            "MiniBoss/1979_fx_gemminiboss/1979_fx_gemminiboss/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "965c260c-472e-4a3b-8f6e-1ae083596385": [
+            "MiniBoss/1979_fx_gemminiboss/1979_fx_gemminiboss",
+            "sp.SkeletonData"
+        ],
+        "c16419db-ff43-4d94-ad79-4388d382896f": [
+            "MiniBoss/1979_fx_transition/1979_fx_transition",
+            "cc.Asset"
+        ],
+        "a5c9caac-d949-4933-9e82-9df6f2bf3450": [
+            "MiniBoss/1979_fx_transition/1979_fx_transition",
+            "cc.ImageAsset"
+        ],
+        "a5c9caac-d949-4933-9e82-9df6f2bf3450@6c48a": [
+            "MiniBoss/1979_fx_transition/1979_fx_transition/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "cbf3c8fd-bd0e-46c7-93e3-873361e3ecab": [
+            "MiniBoss/1979_fx_transition/1979_fx_transition",
+            "sp.SkeletonData"
+        ],
+        "80dafdd5-0aec-424d-9ee1-c768a9ddd2cd": [
+            "MiniBoss/1979_lightning/1979_mb_lightning1",
+            "cc.ImageAsset"
+        ],
+        "80dafdd5-0aec-424d-9ee1-c768a9ddd2cd@6c48a": [
+            "MiniBoss/1979_lightning/1979_mb_lightning1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "80dafdd5-0aec-424d-9ee1-c768a9ddd2cd@f9941": [
+            "MiniBoss/1979_lightning/1979_mb_lightning1/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d0bbd02f-b191-43ab-82f9-83a8348c34a6": [
+            "MiniBoss/1979_lightning/1979_mb_lightning2",
+            "cc.ImageAsset"
+        ],
+        "d0bbd02f-b191-43ab-82f9-83a8348c34a6@6c48a": [
+            "MiniBoss/1979_lightning/1979_mb_lightning2/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "d0bbd02f-b191-43ab-82f9-83a8348c34a6@f9941": [
+            "MiniBoss/1979_lightning/1979_mb_lightning2/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "83e7b878-7e2b-4046-852b-e0746da4d174": [
+            "MiniBoss/1979_lightning/1979_mb_lightning3",
+            "cc.ImageAsset"
+        ],
+        "83e7b878-7e2b-4046-852b-e0746da4d174@6c48a": [
+            "MiniBoss/1979_lightning/1979_mb_lightning3/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "83e7b878-7e2b-4046-852b-e0746da4d174@f9941": [
+            "MiniBoss/1979_lightning/1979_mb_lightning3/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "3f80a065-efcb-464e-9460-e4a5fe9e0db9": [
+            "MiniBoss/1979_lightning/1979_mb_lightning4",
+            "cc.ImageAsset"
+        ],
+        "3f80a065-efcb-464e-9460-e4a5fe9e0db9@6c48a": [
+            "MiniBoss/1979_lightning/1979_mb_lightning4/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "3f80a065-efcb-464e-9460-e4a5fe9e0db9@f9941": [
+            "MiniBoss/1979_lightning/1979_mb_lightning4/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "c43fbf48-66b7-499c-9e30-8175901bd735": [
+            "MiniBoss/1979_lightning/1979_mb_lightning5",
+            "cc.ImageAsset"
+        ],
+        "c43fbf48-66b7-499c-9e30-8175901bd735@6c48a": [
+            "MiniBoss/1979_lightning/1979_mb_lightning5/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "c43fbf48-66b7-499c-9e30-8175901bd735@f9941": [
+            "MiniBoss/1979_lightning/1979_mb_lightning5/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "979c83cd-bcdf-496c-b978-6735e720928e": [
+            "MiniBoss/1979_lightning/1979_mb_lightning6",
+            "cc.ImageAsset"
+        ],
+        "979c83cd-bcdf-496c-b978-6735e720928e@6c48a": [
+            "MiniBoss/1979_lightning/1979_mb_lightning6/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "979c83cd-bcdf-496c-b978-6735e720928e@f9941": [
+            "MiniBoss/1979_lightning/1979_mb_lightning6/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "46dc7f2f-ad12-49af-a09d-29552a1f95fd": [
+            "MiniBoss/1979_lightning/1979_mb_lightning7",
+            "cc.ImageAsset"
+        ],
+        "46dc7f2f-ad12-49af-a09d-29552a1f95fd@6c48a": [
+            "MiniBoss/1979_lightning/1979_mb_lightning7/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "46dc7f2f-ad12-49af-a09d-29552a1f95fd@f9941": [
+            "MiniBoss/1979_lightning/1979_mb_lightning7/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d68703e1-7148-407d-9cf1-e689109a0418": [
+            "MiniBoss/1979_miniboss_aura/1979_miniboss_aura",
+            "cc.Asset"
+        ],
+        "2bc40d2f-ab27-4c53-a7b4-ebbd255fc020": [
+            "MiniBoss/1979_miniboss_aura/1979_miniboss_aura",
+            "cc.ImageAsset"
+        ],
+        "2bc40d2f-ab27-4c53-a7b4-ebbd255fc020@6c48a": [
+            "MiniBoss/1979_miniboss_aura/1979_miniboss_aura/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "0c6e647d-f7fd-4890-9b1d-ffe499ee0950": [
+            "MiniBoss/1979_miniboss_aura/1979_miniboss_aura",
+            "sp.SkeletonData"
+        ],
+        "2db46d87-5506-4ee7-81c8-7539bf8f2495": [
+            "MiniBoss/1979_miniboss_bom/1979_mb_boom1",
+            "cc.ImageAsset"
+        ],
+        "2db46d87-5506-4ee7-81c8-7539bf8f2495@6c48a": [
+            "MiniBoss/1979_miniboss_bom/1979_mb_boom1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "2db46d87-5506-4ee7-81c8-7539bf8f2495@f9941": [
+            "MiniBoss/1979_miniboss_bom/1979_mb_boom1/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "f8ad8c08-ed99-4bf8-a5db-7689f73cde77": [
+            "MiniBoss/1979_miniboss_bom/1979_mb_boom2",
+            "cc.ImageAsset"
+        ],
+        "f8ad8c08-ed99-4bf8-a5db-7689f73cde77@6c48a": [
+            "MiniBoss/1979_miniboss_bom/1979_mb_boom2/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "f8ad8c08-ed99-4bf8-a5db-7689f73cde77@f9941": [
+            "MiniBoss/1979_miniboss_bom/1979_mb_boom2/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "51c6d897-4d11-4c1b-8eab-051835b18dad": [
+            "MiniBoss/1979_miniboss_bom/1979_mb_boom3",
+            "cc.ImageAsset"
+        ],
+        "51c6d897-4d11-4c1b-8eab-051835b18dad@6c48a": [
+            "MiniBoss/1979_miniboss_bom/1979_mb_boom3/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "51c6d897-4d11-4c1b-8eab-051835b18dad@f9941": [
+            "MiniBoss/1979_miniboss_bom/1979_mb_boom3/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "e86aa721-9149-46f3-aea6-a37cc2379c84": [
+            "MiniBoss/1979_miniboss_bom/1979_mb_boom4",
+            "cc.ImageAsset"
+        ],
+        "e86aa721-9149-46f3-aea6-a37cc2379c84@6c48a": [
+            "MiniBoss/1979_miniboss_bom/1979_mb_boom4/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "e86aa721-9149-46f3-aea6-a37cc2379c84@f9941": [
+            "MiniBoss/1979_miniboss_bom/1979_mb_boom4/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "d7331589-5ad1-4e18-892b-a3736bfc21ba": [
+            "MiniBoss/1979_static_effect/1979_effect_light1",
+            "cc.ImageAsset"
+        ],
+        "d7331589-5ad1-4e18-892b-a3736bfc21ba@6c48a": [
+            "MiniBoss/1979_static_effect/1979_effect_light1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "d7331589-5ad1-4e18-892b-a3736bfc21ba@f9941": [
+            "MiniBoss/1979_static_effect/1979_effect_light1/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "fc0ca169-b927-4f24-920d-f069a7d62053": [
+            "MiniBoss/1979_static_effect/1979_effect_light2",
+            "cc.ImageAsset"
+        ],
+        "fc0ca169-b927-4f24-920d-f069a7d62053@6c48a": [
+            "MiniBoss/1979_static_effect/1979_effect_light2/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "fc0ca169-b927-4f24-920d-f069a7d62053@f9941": [
+            "MiniBoss/1979_static_effect/1979_effect_light2/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "880cdeb7-06d4-4e9a-9f50-053087ee8e15": [
+            "MiniBoss/1979_static_item/1979_mb_item_1",
+            "cc.ImageAsset"
+        ],
+        "880cdeb7-06d4-4e9a-9f50-053087ee8e15@6c48a": [
+            "MiniBoss/1979_static_item/1979_mb_item_1/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "880cdeb7-06d4-4e9a-9f50-053087ee8e15@f9941": [
+            "MiniBoss/1979_static_item/1979_mb_item_1/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "0895cb45-1273-4239-9e1e-6b03db77533e": [
+            "MiniBoss/1979_static_item/1979_mb_item_2",
+            "cc.ImageAsset"
+        ],
+        "0895cb45-1273-4239-9e1e-6b03db77533e@6c48a": [
+            "MiniBoss/1979_static_item/1979_mb_item_2/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "0895cb45-1273-4239-9e1e-6b03db77533e@f9941": [
+            "MiniBoss/1979_static_item/1979_mb_item_2/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b2b7d93a-37f0-4e10-8e71-ed2a3c882643": [
+            "MiniBoss/1979_static_item/1979_mb_item_3",
+            "cc.ImageAsset"
+        ],
+        "b2b7d93a-37f0-4e10-8e71-ed2a3c882643@6c48a": [
+            "MiniBoss/1979_static_item/1979_mb_item_3/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "b2b7d93a-37f0-4e10-8e71-ed2a3c882643@f9941": [
+            "MiniBoss/1979_static_item/1979_mb_item_3/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "93f4503e-0cd6-41d3-bd1a-7a59626aa2c6": [
+            "MiniBoss/1979_static_item/1979_mb_item_4",
+            "cc.ImageAsset"
+        ],
+        "93f4503e-0cd6-41d3-bd1a-7a59626aa2c6@6c48a": [
+            "MiniBoss/1979_static_item/1979_mb_item_4/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "93f4503e-0cd6-41d3-bd1a-7a59626aa2c6@f9941": [
+            "MiniBoss/1979_static_item/1979_mb_item_4/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "48f00eb1-e135-4870-8fc7-8690d702566d": [
+            "MiniBoss/1979_static_item/1979_mb_item_5",
+            "cc.ImageAsset"
+        ],
+        "48f00eb1-e135-4870-8fc7-8690d702566d@6c48a": [
+            "MiniBoss/1979_static_item/1979_mb_item_5/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "48f00eb1-e135-4870-8fc7-8690d702566d@f9941": [
+            "MiniBoss/1979_static_item/1979_mb_item_5/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ],
+        "b23b5c2c-f6a3-4156-8fe1-32671321806f": [
+            "MiniBoss/1979_static_item/1979_mb_item_6",
+            "cc.ImageAsset"
+        ],
+        "b23b5c2c-f6a3-4156-8fe1-32671321806f@6c48a": [
+            "MiniBoss/1979_static_item/1979_mb_item_6/texture",
+            "cc.Texture2D",
+            1
+        ],
+        "b23b5c2c-f6a3-4156-8fe1-32671321806f@f9941": [
+            "MiniBoss/1979_static_item/1979_mb_item_6/spriteFrame",
+            "cc.SpriteFrame",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {
+        "07b8260fe": [
+            "2bc40d2f-ab27-4c53-a7b4-ebbd255fc020",
+            "2db46d87-5506-4ee7-81c8-7539bf8f2495",
+            "3f80a065-efcb-464e-9460-e4a5fe9e0db9",
+            "6c9860e4-04dd-4571-a5fe-d72b04672fee",
+            "46dc7f2f-ad12-49af-a09d-29552a1f95fd",
+            "48f00eb1-e135-4870-8fc7-8690d702566d",
+            "51c6d897-4d11-4c1b-8eab-051835b18dad",
+            "80dafdd5-0aec-424d-9ee1-c768a9ddd2cd",
+            "83e7b878-7e2b-4046-852b-e0746da4d174",
+            "93f4503e-0cd6-41d3-bd1a-7a59626aa2c6",
+            "355e5332-32a7-414e-bbf3-6100acccaf60",
+            "880cdeb7-06d4-4e9a-9f50-053087ee8e15",
+            "0895cb45-1273-4239-9e1e-6b03db77533e",
+            "979c83cd-bcdf-496c-b978-6735e720928e",
+            "a5c9caac-d949-4933-9e82-9df6f2bf3450",
+            "a6946dd5-1768-4742-972e-3e42a0be8a3d",
+            "b2b7d93a-37f0-4e10-8e71-ed2a3c882643",
+            "b23b5c2c-f6a3-4156-8fe1-32671321806f",
+            "b57f0b81-6b92-4835-8214-1a9eacfb32ac",
+            "c43fbf48-66b7-499c-9e30-8175901bd735",
+            "d0bbd02f-b191-43ab-82f9-83a8348c34a6",
+            "d511ea4f-04b7-409c-a7bf-0009616d02f4",
+            "d7331589-5ad1-4e18-892b-a3736bfc21ba",
+            "e86aa721-9149-46f3-aea6-a37cc2379c84",
+            "ec0b5621-777e-416e-b95b-33714b124597",
+            "f8ad8c08-ed99-4bf8-a5db-7689f73cde77",
+            "fc0ca169-b927-4f24-920d-f069a7d62053"
+        ],
+        "03c696c4f": [
+            "2bc40d2f-ab27-4c53-a7b4-ebbd255fc020@6c48a",
+            "2db46d87-5506-4ee7-81c8-7539bf8f2495@6c48a",
+            "3f80a065-efcb-464e-9460-e4a5fe9e0db9@6c48a",
+            "6c9860e4-04dd-4571-a5fe-d72b04672fee@6c48a",
+            "46dc7f2f-ad12-49af-a09d-29552a1f95fd@6c48a",
+            "48f00eb1-e135-4870-8fc7-8690d702566d@6c48a",
+            "51c6d897-4d11-4c1b-8eab-051835b18dad@6c48a",
+            "80dafdd5-0aec-424d-9ee1-c768a9ddd2cd@6c48a",
+            "83e7b878-7e2b-4046-852b-e0746da4d174@6c48a",
+            "93f4503e-0cd6-41d3-bd1a-7a59626aa2c6@6c48a",
+            "355e5332-32a7-414e-bbf3-6100acccaf60@6c48a",
+            "880cdeb7-06d4-4e9a-9f50-053087ee8e15@6c48a",
+            "0895cb45-1273-4239-9e1e-6b03db77533e@6c48a",
+            "979c83cd-bcdf-496c-b978-6735e720928e@6c48a",
+            "a5c9caac-d949-4933-9e82-9df6f2bf3450@6c48a",
+            "a6946dd5-1768-4742-972e-3e42a0be8a3d@6c48a",
+            "b2b7d93a-37f0-4e10-8e71-ed2a3c882643@6c48a",
+            "b23b5c2c-f6a3-4156-8fe1-32671321806f@6c48a",
+            "b57f0b81-6b92-4835-8214-1a9eacfb32ac@6c48a",
+            "c43fbf48-66b7-499c-9e30-8175901bd735@6c48a",
+            "d0bbd02f-b191-43ab-82f9-83a8348c34a6@6c48a",
+            "d511ea4f-04b7-409c-a7bf-0009616d02f4@6c48a",
+            "d7331589-5ad1-4e18-892b-a3736bfc21ba@6c48a",
+            "e86aa721-9149-46f3-aea6-a37cc2379c84@6c48a",
+            "ec0b5621-777e-416e-b95b-33714b124597@6c48a",
+            "f8ad8c08-ed99-4bf8-a5db-7689f73cde77@6c48a",
+            "fc0ca169-b927-4f24-920d-f069a7d62053@6c48a"
+        ]
+    },
+    "versions": {
+        "import": [],
+        "native": []
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true
+}

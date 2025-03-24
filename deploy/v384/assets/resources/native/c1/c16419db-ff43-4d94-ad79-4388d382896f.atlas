@@ -1,0 +1,195 @@
+
+1979_fx_transition.png
+size: 638,904
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01/lightning1_00
+  rotate: false
+  xy: 2, 816
+  size: 316, 43
+  orig: 316, 78
+  offset: 0, 16
+  index: -1
+01/lightning1_01
+  rotate: false
+  xy: 320, 860
+  size: 316, 42
+  orig: 316, 78
+  offset: 0, 17
+  index: -1
+01/lightning1_02
+  rotate: false
+  xy: 2, 861
+  size: 316, 41
+  orig: 316, 78
+  offset: 0, 17
+  index: -1
+01/lightning1_03
+  rotate: false
+  xy: 320, 815
+  size: 316, 43
+  orig: 316, 78
+  offset: 0, 16
+  index: -1
+01/lightning1_04
+  rotate: false
+  xy: 2, 771
+  size: 316, 43
+  orig: 316, 78
+  offset: 0, 16
+  index: -1
+01/lightning1_05
+  rotate: false
+  xy: 320, 770
+  size: 316, 43
+  orig: 316, 78
+  offset: 0, 16
+  index: -1
+01/lightning1_06
+  rotate: false
+  xy: 2, 726
+  size: 316, 43
+  orig: 316, 78
+  offset: 0, 16
+  index: -1
+01/lightning1_07
+  rotate: false
+  xy: 320, 725
+  size: 316, 43
+  orig: 316, 78
+  offset: 0, 16
+  index: -1
+01/lightning1_08
+  rotate: false
+  xy: 2, 681
+  size: 316, 43
+  orig: 316, 78
+  offset: 0, 16
+  index: -1
+01/lightning1_09
+  rotate: false
+  xy: 320, 678
+  size: 316, 45
+  orig: 316, 78
+  offset: 0, 14
+  index: -1
+01/lightning1_10
+  rotate: false
+  xy: 320, 630
+  size: 316, 46
+  orig: 316, 78
+  offset: 0, 13
+  index: -1
+01/lightning1_11
+  rotate: false
+  xy: 2, 586
+  size: 316, 46
+  orig: 316, 78
+  offset: 0, 13
+  index: -1
+01/lightning1_12
+  rotate: false
+  xy: 2, 634
+  size: 316, 45
+  orig: 316, 78
+  offset: 0, 14
+  index: -1
+02/lightning2_00
+  rotate: false
+  xy: 2, 301
+  size: 412, 56
+  orig: 412, 100
+  offset: 0, 21
+  index: -1
+02/lightning2_01
+  rotate: false
+  xy: 2, 473
+  size: 412, 55
+  orig: 412, 100
+  offset: 0, 21
+  index: -1
+02/lightning2_02
+  rotate: false
+  xy: 2, 530
+  size: 412, 54
+  orig: 412, 100
+  offset: 0, 22
+  index: -1
+02/lightning2_03
+  rotate: false
+  xy: 2, 416
+  size: 412, 55
+  orig: 412, 100
+  offset: 0, 21
+  index: -1
+02/lightning2_04
+  rotate: false
+  xy: 2, 359
+  size: 412, 55
+  orig: 412, 100
+  offset: 0, 21
+  index: -1
+02/lightning2_05
+  rotate: false
+  xy: 2, 243
+  size: 412, 56
+  orig: 412, 100
+  offset: 0, 20
+  index: -1
+02/lightning2_06
+  rotate: false
+  xy: 2, 65
+  size: 412, 60
+  orig: 412, 100
+  offset: 0, 20
+  index: -1
+02/lightning2_07
+  rotate: false
+  xy: 2, 185
+  size: 412, 56
+  orig: 412, 100
+  offset: 0, 20
+  index: -1
+02/lightning2_08
+  rotate: true
+  xy: 416, 16
+  size: 412, 67
+  orig: 412, 100
+  offset: 0, 16
+  index: -1
+02/lightning2_09
+  rotate: false
+  xy: 2, 127
+  size: 412, 56
+  orig: 412, 100
+  offset: 0, 20
+  index: -1
+02/lightning2_10
+  rotate: true
+  xy: 485, 16
+  size: 412, 65
+  orig: 412, 100
+  offset: 0, 16
+  index: -1
+02/lightning2_11
+  rotate: true
+  xy: 552, 16
+  size: 412, 60
+  orig: 412, 100
+  offset: 0, 17
+  index: -1
+02/lightning2_12
+  rotate: false
+  xy: 2, 2
+  size: 412, 61
+  orig: 412, 100
+  offset: 0, 17
+  index: -1
+eff_circlefire
+  rotate: false
+  xy: 416, 430
+  size: 201, 198
+  orig: 201, 204
+  offset: 0, 3
+  index: -1

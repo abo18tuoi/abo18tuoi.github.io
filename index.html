@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Versions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .version-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .version-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .version-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .version-card h2 {
+            margin-top: 0;
+            color: #444;
+        }
+        .version-card p {
+            color: #666;
+        }
+        .version-card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+        .version-card a:hover {
+            background-color: #45a049;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #777;
+            font-size: 0.9em;
+        }
+        .loading {
+            text-align: center;
+            color: #666;
+            margin: 20px 0;
+        }
+        .error-message {
+            color: #d9534f;
+            text-align: center;
+            padding: 15px;
+            border: 1px solid #d9534f;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Project Versions</h1>
+
+    <div class="version-container" id="version-container">
+        <div class="loading">Loading versions...</div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 - GitHub Pages Project</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            loadVersions();
+        });
+
+        function loadVersions() {
+            const container = document.getElementById('version-container');
+
+            // When hosted on GitHub Pages, we'll scan the deploy directory directly
+            if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+                // For local development with the Express server
+                fetch('/api/versions')
+                    .then(response => response.json())
+                    .then(versions => displayVersions(versions))
+                    .catch(error => showError('Failed to load versions from API: ' + error.message));
+            } else {
+                // For GitHub Pages, manually check if each directory exists
+                // This is a fallback for when the server API isn't available
+                const knownVersions = [
+                    { name: 'v384', path: 'deploy/v384/index.html', displayName: 'Version 3.8.4', description: 'Latest version of the project' },
+                    { name: 'v373', path: 'deploy/v373/index.html', displayName: 'Version 3.7.3', description: 'Previous version of the project' }
+                ];
+                displayVersions(knownVersions);
+            }
+        }
+
+        function displayVersions(versions) {
+            const container = document.getElementById('version-container');
+            container.innerHTML = '';
+
+            if (!versions || versions.length === 0) {
+                showError('No versions found');
+                return;
+            }
+
+            versions.forEach(version => {
+                const card = document.createElement('div');
+                card.className = 'version-card';
+
+                const displayName = version.displayName || formatVersionName(version.name);
+                const description = version.description || `Project version ${version.name}`;
+
+                card.innerHTML = `
+                    <h2>${displayName}</h2>
+                    <p>${description}</p>
+                    <a href="${version.path}">View ${displayName}</a>
+                `;
+
+                container.appendChild(card);
+            });
+        }
+
+        function formatVersionName(name) {
+            // Convert v384 to Version 3.8.4
+            const match = name.match(/v(\d)(\d)(\d)/);
+            if (match) {
+                return `Version ${match[1]}.${match[2]}.${match[3]}`;
+            }
+            return name;
+        }
+
+        function showError(message) {
+            const container = document.getElementById('version-container');
+            container.innerHTML = `<div class="error-message">${message}</div>`;
+        }
+    </script>
+</body>
+</html>
