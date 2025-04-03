@@ -29,18 +29,20 @@
             border-radius: 8px;
             padding: 20px;
             background-color: #f9f9f9;
-            transition: transform 0.2s, box-shadow 0.2s;
+            transition: all 0.3s ease;
         }
         .version-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            background-color: #f0f0f0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
         .version-card h2 {
             margin-top: 0;
             color: #444;
+            font-size: 1.2em;
         }
         .version-card p {
             color: #666;
+            margin: 10px 0;
         }
         .version-card a {
             display: inline-block;
@@ -51,7 +53,7 @@
             text-decoration: none;
             border-radius: 4px;
             font-weight: bold;
-            transition: background-color 0.2s;
+            transition: background-color 0.3s ease;
         }
         .version-card a:hover {
             background-color: #45a049;
@@ -104,14 +106,43 @@
                     .then(versions => displayVersions(versions))
                     .catch(error => showError('Failed to load versions from API: ' + error.message));
             } else {
-                // For GitHub Pages, manually check if each directory exists
-                // This is a fallback for when the server API isn't available
-                const knownVersions = [
-                    { name: 'v384', path: 'deploy/v384/index.html', displayName: 'Version 3.8.4', description: 'Latest version of the project' },
-                    { name: 'v373', path: 'deploy/v373/index.html', displayName: 'Version 3.7.3', description: 'Previous version of the project' }
-                ];
-                displayVersions(knownVersions);
+                // For GitHub Pages, scan the deploy directory
+                scanDeployDirectory();
             }
+        }
+
+        function scanDeployDirectory() {
+            const container = document.getElementById('version-container');
+            container.innerHTML = '<div class="loading">Scanning deploy directory...</div>';
+
+            fetch('https://api.github.com/repos/abo18tuoi/abo18tuoi.github.io/contents/deploy')
+                .then(response => response.json())
+                .then(data => {
+                    if (!Array.isArray(data)) {
+                        throw new Error('Invalid response from GitHub API');
+                    }
+
+                    const versions = data
+                        .filter(item => item.type === 'dir')
+                        .map(dir => ({
+                            name: dir.name,
+                            path: `deploy/${dir.name}/index.html`,
+                            displayName: formatVersionName(dir.name),
+                            description: `Click to view this version`
+                        }));
+
+                    if (versions.length === 0) {
+                        showError('No versions found in deploy directory');
+                        return;
+                    }
+
+                    versions.sort((a, b) => b.name.localeCompare(a.name));
+                    displayVersions(versions);
+                })
+                .catch(error => {
+                    console.error('Error scanning deploy directory:', error);
+                    showError('Failed to scan deploy directory: ' + error.message);
+                });
         }
 
         function displayVersions(versions) {
@@ -128,12 +159,12 @@
                 card.className = 'version-card';
 
                 const displayName = version.displayName || formatVersionName(version.name);
-                const description = version.description || `Project version ${version.name}`;
+                const description = version.description || `Click to view this version`;
 
                 card.innerHTML = `
                     <h2>${displayName}</h2>
                     <p>${description}</p>
-                    <a href="${version.path}">View ${displayName}</a>
+                    <a href="${version.path}">View</a>
                 `;
 
                 container.appendChild(card);
@@ -141,11 +172,20 @@
         }
 
         function formatVersionName(name) {
-            // Convert v384 to Version 3.8.4
+            // Handle CocosXXX_SpineYY format
+            const cocosSpineMatch = name.match(/Cocos(\d)(\d)(\d)_Spine(\d)(\d)/);
+            if (cocosSpineMatch) {
+                const cocosVersion = `${cocosSpineMatch[1]}.${cocosSpineMatch[2]}.${cocosSpineMatch[3]}`;
+                const spineVersion = `${cocosSpineMatch[4]}.${cocosSpineMatch[5]}`;
+                return `Cocos Creator v${cocosVersion}, Spine v${spineVersion}`;
+            }
+
+            // Handle old vXXX format
             const match = name.match(/v(\d)(\d)(\d)/);
             if (match) {
                 return `Version ${match[1]}.${match[2]}.${match[3]}`;
             }
+
             return name;
         }
 
